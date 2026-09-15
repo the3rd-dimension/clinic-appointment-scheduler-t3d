@@ -90,7 +90,7 @@ export default function Home() {
             <div className="flex size-9 items-center justify-center rounded-xl bg-[#27604b] text-white">
               <Stethoscope size={19} />
             </div>
-            <span className="font-semibold tracking-tight">northstar<span className="text-[#72a889]">.</span>health</span>
+            <span className="font-semibold tracking-tight">Appointment<span className="text-[#72a889]">.</span>Scheduler</span>
           </div>
           <div className="flex items-center gap-4 text-sm text-[#66766d]">
             <span className="hidden sm:inline">Patient portal</span>
@@ -258,8 +258,8 @@ export default function Home() {
           </div>
           <p>This is a sample project by Tamzid Idrish, not an official page of any hospital. This page features Next.js, TypeScript, React, Tailwind CSS, Prisma, PostgreSQL, and Zod.</p>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <span>© 2026 Northstar Health</span>
-            <a href="https://github.com/the3rd-dimension/Clinic-Appointment-Scheduler.git" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 self-start rounded-lg border border-[#c8d9cc] px-3 py-2 font-medium text-[#27604b] transition hover:bg-[#f0f6f1]">
+            <span>© 2026 Tamzid Idrish</span>
+            <a href="https://github.com/the3rd-dimension/clinic-appointment-scheduler-t3d.git" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 self-start rounded-lg border border-[#c8d9cc] px-3 py-2 font-medium text-[#27604b] transition hover:bg-[#f0f6f1]">
               <ExternalLink size={15} /> View the project on GitHub
             </a>
           </div>

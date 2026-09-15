@@ -1,4 +1,4 @@
-# Northstar Health Scheduler
+# Clinic Appointment Scheduler 
 
 A production-shaped clinic appointment scheduler built with Next.js App Router, TypeScript, Tailwind CSS, Prisma, PostgreSQL, and Zod.
 
@@ -50,3 +50,8 @@ For example, Wednesday from 3:00 PM to 6:00 PM is a `DoctorAvailability` row wit
 - `POST /api/appointments` validates and creates a patient appointment in a serializable transaction.
 
 PostgreSQL's `btree_gist` exclusion constraint prevents overlapping `SCHEDULED` appointments for the same doctor even under concurrent requests.
+
+
+Important facts: This is a sample project with production level server management. But this has 0 Security, I've left the Api, links, passwords directly inside the repo intentionally. That should be for learning help and not misuse.
+
+Made by Tamzid Idrish.
